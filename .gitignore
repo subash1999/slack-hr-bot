@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.js.map
+*.d.ts
+!jest.config.ts
+.clasp.json

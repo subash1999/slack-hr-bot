@@ -1,0 +1,59 @@
+{
+    "display_information": {
+        "name": "Slack HR Bot"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Slack HR Bot",
+            "always_online": false
+        },
+        "slash_commands": [
+            {
+                "command": "/in",
+                "url": "https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec",
+                "description": "Check in",
+                "should_escape": false
+            },
+            {
+                "command": "/out",
+                "url": "https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec",
+                "description": "Checkout",
+                "should_escape": false
+            },
+            {
+                "command": "/break",
+                "url": "https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec",
+                "description": "Take a break",
+                "should_escape": false
+            },
+            {
+                "command": "/back",
+                "url": "https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec",
+                "description": "Returning Back From Break",
+                "should_escape": false
+            },
+            {
+                "command": "/onboard",
+                "url": "https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec",
+                "description": "Onboard New Employee",
+                "should_escape": false
+            }
+        ]
+    },
+    "oauth_config": {
+        "scopes": {
+            "bot": [
+                "chat:write",
+                "commands",
+                "users:read",
+                "im:write"
+            ]
+        },
+        "pkce_enabled": false
+    },
+    "settings": {
+        "org_deploy_enabled": false,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}

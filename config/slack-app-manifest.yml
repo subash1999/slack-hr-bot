@@ -1,0 +1,144 @@
+display_information:
+  name: Slack HR Bot
+features:
+  bot_user:
+    display_name: Slack HR Bot
+    always_online: false
+  slash_commands:
+    - command: /in
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Check in
+      should_escape: false
+    - command: /out
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Checkout
+      should_escape: false
+    - command: /break
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Take a break
+      should_escape: false
+    - command: /back
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Returning Back From Break
+      should_escape: false
+    - command: /clock-status
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Check current clock state
+      should_escape: false
+    - command: /hours
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: View hours summary
+      usage_hint: "[YYYY-MM-DD | week | month YYYY-MM]"
+      should_escape: false
+    - command: /request-leave
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Request leave
+      usage_hint: "YYYY-MM-DD [YYYY-MM-DD]"
+      should_escape: false
+    - command: /balance
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: View leave balance
+      should_escape: false
+    - command: /my-bank
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: View surplus hours bank
+      should_escape: false
+    - command: /payroll
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: View your payroll
+      usage_hint: "[YYYY-MM]"
+      should_escape: false
+    - command: /report
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Submit daily report
+      usage_hint: "[YYYY-MM-DD | week | @employee]"
+      should_escape: false
+    - command: /hr-help
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Show available commands
+      should_escape: false
+    - command: /team-leave
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: View team leave calendar
+      usage_hint: "[week | YYYY-MM]"
+      should_escape: false
+    - command: /team-hours
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Team hours summary
+      should_escape: false
+    - command: /team-flags
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Pending shortfall flags
+      should_escape: false
+    - command: /team-bank
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Team bank balances
+      should_escape: false
+    - command: /team-reports
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Team daily reports
+      usage_hint: "[week | YYYY-MM]"
+      should_escape: false
+    - command: /team-payroll
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Team payroll summary
+      usage_hint: "[YYYY-MM]"
+      should_escape: false
+    - command: /salary-history
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: View or update salary history
+      usage_hint: "@employee [set amount]"
+      should_escape: false
+    - command: /approve-surplus
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Approve surplus banking
+      usage_hint: "@employee YYYY-MM hours max_leave_days"
+      should_escape: false
+    - command: /approve-absence
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Pre-approve absence
+      usage_hint: "@employee YYYY-MM-DD reason"
+      should_escape: false
+    - command: /adjust-quota
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Redistribute hours
+      usage_hint: "@employee monthly|daily|weekly"
+      should_escape: false
+    - command: /onboard
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Onboard New Employee
+      should_escape: false
+    - command: /offboard
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Deactivate employee
+      usage_hint: "@employee"
+      should_escape: false
+    - command: /edit-employee
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Edit employee details
+      usage_hint: "@employee"
+      should_escape: false
+    - command: /fix
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Submit attendance correction
+      usage_hint: "YYYY-MM-DD HH:MM ACTION [reason]"
+      should_escape: false
+    - command: /cache-refresh
+      url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+      description: Refresh all caches (admin only)
+      should_escape: false
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - commands
+      - users:read
+      - im:write
+  pkce_enabled: false
+settings:
+  interactivity:
+    is_enabled: true
+    request_url: https://script.google.com/macros/s/AKfycbxv8gi2df_VFkINDTFlILtx8m57mTEMMJXEB38M7YjrCUTZRlR2peX1OVvPEH3EXZ0qNQ/exec
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

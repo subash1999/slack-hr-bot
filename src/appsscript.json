@@ -1,0 +1,10 @@
+{
+  "timeZone": "Asia/Kathmandu",
+  "dependencies": {},
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "runtimeVersion": "V8",
+  "exceptionLogging": "STACKDRIVER"
+}
