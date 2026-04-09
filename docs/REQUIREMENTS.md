@@ -221,8 +221,8 @@ policy_group | min_daily_hours | min_weekly_hours | min_monthly_hours
 
 **Policy Groups:**
 ```
-Full-Time | 3  | 30  | 160
-Intern    | 3  | 15  | 80
+Full-Time | 4  | 30  | 160
+Intern    | 4  | 15  | 80
 ```
 
 **Hour requirement resolution:** `Employees.position` → `Positions.policy_group` → `Policies.min_*_hours`
@@ -299,7 +299,7 @@ Employees can query their own data for any date, week, or month. All data is sco
 ```
 
 **Automatic warnings in responses:**
-- Daily shortfall: ⚠️ when below 3h daily min
+- Daily shortfall: ⚠️ when below 4h daily min
 - Weekly shortfall: ⚠️ when below 30h weekly min
 - Monthly pace warning: "You need Xh in Y remaining days" when behind pace
 - Bank expiry warning: shown when entries expire within 30 days
@@ -308,7 +308,7 @@ Employees can query their own data for any date, week, or month. All data is sco
 **Example — `/hours` (current snapshot):**
 ```
 📊 Your Hours — March 28, 2026
-Today:      2.5h / 3h min   ⚠️ -0.5h (still working)
+Today:      2.5h / 4h min   ⚠️ -1.5h (still working)
 This Week:  18h / 30h min   ⚠️ -12h (2 days left)
 This Month: 142h / 160h min ⚠️ -18h (3 days left)
 Leave: 2 days (16h credited) | Bank: 12h available
@@ -398,7 +398,7 @@ This is decided at approval time. No separate leave conversion approval is neede
 #### The Same Logic Applies at Daily and Weekly Levels
 
 **Daily carry-forward:**
-- Employee works 2h on Monday (daily min: 3h → -1h shortfall)
+- Employee works 2h on Monday (daily min: 4h → -2h shortfall)
 - Works 8h on Tuesday (+5h surplus)
 - Manager can approve: "Monday's shortfall offset by Tuesday's surplus"
 - The daily flag for Monday gets resolved as `OFFSET_BY_SURPLUS`

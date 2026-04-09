@@ -66,7 +66,7 @@ Here are your available commands:
   /hr-help    - All commands
 
 Your group: Full-Time Contract Developer
-Required hours: 3h/day, 30h/week, 160h/month
+Required hours: 4h/day, 30h/week, 160h/month
 Leave accrual starts: July 2026 (after 3 months)
 
 Questions? Ask your manager or admin.

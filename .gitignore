@@ -6,3 +6,7 @@ coverage/
 *.d.ts
 !jest.config.ts
 .clasp.json
+
+# Knowledge graph outputs
+.code-review-graph/
+graphify-out/

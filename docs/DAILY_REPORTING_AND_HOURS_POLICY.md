@@ -69,12 +69,12 @@ Every employee group has 3 levels of minimum hour requirements. All three are tr
 ```
 Policy Group | Daily Min | Weekly Min | Monthly Min | Positions Using This Group
 ─────────────┼───────────┼────────────┼─────────────┼──────────────────────────────────────────────────────────
-Full-Time    |    3h     |    30h     |    160h     | CEO, CTO, Team Lead, Full Time Contract Developer, Full Time Developer
-Intern       |    3h     |    15h     |     80h     | Contract Intern, Intern
+Full-Time    |    4h     |    30h     |    160h     | CEO, CTO, Team Lead, Full Time Contract Developer, Full Time Developer
+Intern       |    4h     |    15h     |     80h     | Contract Intern, Intern
 ```
 
 **Core Working Hours:**
-- Core working hours are 3 hours per day (mutually agreed between contractor and company)
+- Core working hours are 4 hours per day (mutually agreed between contractor and company, subject to change by Company within Nepal law with 30 days' notice per Article 12.2)
 - Additional hours beyond core hours must be approved by manager
 
 **Per Individual Override (Overrides sheet):**
@@ -184,8 +184,8 @@ The whole point of the 3-level system: employees see their progress and adjust:
 
 ```
 /hours
-→ Today: 3h / 8h min ⚠️ (you need 5 more hours today)
-→ This Week: 25h / 40h ⚠️ (15h remaining, 3 days left)
+→ Today: 3h / 4h min ⚠️ (you need 1 more hour today)
+→ This Week: 25h / 30h ⚠️ (5h remaining, 3 days left)
 → This Month: 100h / 160h ⚠️ (60h remaining, 8 work days left)
 ```
 
@@ -243,7 +243,7 @@ System creates linked overrides for each period in the plan. The employee's requ
 
 ### Hours Banking (Carry-Forward)
 
-Surplus hours require MANAGER PRE-APPROVAL to be eligible for banking. Surplus hours are NOT cashable and can only be taken as leave within 12 months with manager permission. When a deficit flag fires, the manager can choose to offset it using banked surplus from previous periods. When approving surplus banking, manager specifies max_leave_days convertible from that surplus.
+Surplus hours require MANAGER PRE-APPROVAL to be eligible for banking. Surplus hours shall not result in extra pay without prior written approval from higher management (Contract ref: Article 3.6(f), 4.6). If approved by higher management, surplus may be compensated. Without such approval, surplus hours can only be taken as leave within 12 months with manager permission. Carry-forward is limited to the next consecutive month only, and requires explicit permission — without it, carry-forward is treated as unauthorized absence with salary deduction. When a deficit flag fires, the manager can choose to offset it using banked surplus from previous periods. When approving surplus banking, manager specifies max_leave_days convertible from that surplus.
 
 **How it works:**
 - March: worked 200h, required 160h → manager pre-approves banking of 40h surplus with max 5 leave days convertible
@@ -256,7 +256,7 @@ Surplus hours require MANAGER PRE-APPROVAL to be eligible for banking. Surplus h
 - Only manager-approved surplus hours can be carried forward or taken as leave
 - Surplus is tracked per period (daily/monthly only — no weekly surplus tracking)
 - Banked hours expire after 12 months from accrual date
-- Surplus hours are NOT cashable under any circumstances (cannot be paid out as additional salary)
+- Surplus hours shall not result in extra pay without prior written approval from higher management (Contract ref: Article 3.6(f)). Without such approval, surplus hours are not cashable
 - When manager approves banking, they specify max_leave_days convertible from that surplus
 - Surplus can ONLY be:
   1. Offset against future deficits (with manager approval)

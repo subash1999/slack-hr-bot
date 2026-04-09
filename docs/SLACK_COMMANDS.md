@@ -453,7 +453,7 @@ Remaining balance: 4 days.
 📊 Your Hours — March 28, 2026
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Today:      2.5h / 3h min   ⚠️ -0.5h (still working)
+Today:      2.5h / 4h min   ⚠️ -1.5h (still working)
 This Week:  18h / 30h min   ⚠️ -12h (2 days left)
 This Month: 142h / 160h min ⚠️ -18h (3 days left)
 
@@ -471,7 +471,7 @@ Bank:  12h available (expires Sep 2026)
 
 Worked: 6h 30m
 Breaks: 45m (2 breaks)
-Net:    5h 45m  ✅ (daily min: 3h)
+Net:    5h 45m  ✅ (daily min: 4h)
 
 Sessions:
   09:15 → 12:00  (2h 45m)
@@ -487,7 +487,7 @@ Sessions:
 
 Mon Mar 23:  6.5h  ✅
 Tue Mar 24:  7.0h  ✅
-Wed Mar 25:  2.0h  ⚠️ below daily min (3h)
+Wed Mar 25:  2.0h  ⚠️ below daily min (4h)
 Thu Mar 26:  5.5h  ✅
 Fri Mar 27:  3.0h  ✅ min
 Sat Mar 28:  2.5h  🔵 in progress
@@ -903,7 +903,7 @@ Flags will use these adjusted targets.
 2. Bot shows the week containing Apr 7:
 ```
 📋 Daily Redistribution: Alex (Week of Apr 7-11)
-Daily default: 3h | Weekly total: 30h
+Daily default: 4h | Weekly total: 30h
 
 Mon Apr 7:  [____] hours
 Tue Apr 8:  [____] hours

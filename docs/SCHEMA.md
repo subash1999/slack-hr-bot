@@ -110,8 +110,8 @@ Defines hour minimums per policy group. Multiple positions can share the same po
 
 ### Default Policy Groups
 ```
-Full-Time | 3  | 30  | 160 | Full-time contract staff (3h/30h/160h)
-Intern    | 3  | 15  | 80  | Interns (3h/15h/80h)
+Full-Time | 4  | 30  | 160 | Full-time contract staff (4h/30h/160h)
+Intern    | 4  | 15  | 80  | Interns (4h/15h/80h)
 ```
 
 ---
